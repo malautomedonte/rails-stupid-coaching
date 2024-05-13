@@ -1,0 +1,25 @@
+<div class="title">
+  <h1>Stupid Coaching Redux</h1>
+</div>
+
+<div class="form-answer">
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= @question %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">You</cite>
+    </figcaption>
+  </figure>
+
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= @answer %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">Your Coach</cite>
+    </figcaption>
+  </figure>
+
+  <%= link_to 'Ask another question if you dare!', ask_path %>
+</div>
